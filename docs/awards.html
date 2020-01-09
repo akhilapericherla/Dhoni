@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel=stylesheet href="css/body.css">
+    <link rel=stylesheet href="css/styles.css">
+    <script>
+       window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+  </head>
+  <body>
+      
+      <script>
+          $(document).ready(function(){
+              var audio= new Audio('sos.wav');
+              var audio2= new Audio('spaceship.wav');
+              var audio3= new Audio('aeroplane.wav');
+              $('#award1').click(function() {
+                audio.play();
+              });
+              $('#award2').click(function() {
+                audio2.play();
+              });var audio3= new Audio('aeroplane.wav');
+              $('#award3').click(function() {
+                audio3.play();
+              });
+
+          });
+        </script>      
+    
+    
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">M S Dhoni</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">The Person <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="bio.html">Bio</a></li>
+                              <li><a href="pictures.html">Pictures</a></li>
+                              <li><a href="books.html">Books</a></li>
+                             
+                          </ul>
+                      </li>
+                  
+                    <!-- <li class="active"><a href="#">About</a></li> -->
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </nav>
+              <div class="col-sm-12 text-center ">
+                    <h2><strong>Awards</strong></h2>
+
+                </div>
+                <div class="container-fluid">
+                        <div class="row">
+                                <div class="col-md-3" id="award1" >
+                    
+                        <img  src="images/award1.jpg" width="300" height="300">
+                                </div>
+                                <div class="col-sm-7">
+                        <h2>
+                                Mahendra Singh Dhoni wins top India honour – Padma Bhushan Award
+
+                        </h2>
+                        <p >MS Dhoni received country's third highest civilian award, Padma Bhushan, from President Ram Nath Kovind on Monday. The former India captain, who holds the rank of Honorary Lieutenant Colonel, wore his official uniform of the Territorial Army for the ceremony.The 37-year-old Dhoni is the second Indian cricketer after Kapil Dev to receive this honour </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-3" id="award2"  >
+                
+                    <img src="images/award2.jpg" width="300" height="300">
+                            </div>
+                            <div class="col-sm-7">
+                    <h2>
+                            M.S.Dhoni Awarded ICC ODI Player of the Year Award
+                    </h2>
+
+                <p>India's one-day captain, Mahendra Singh Dhoni, has won the ODI player of the year award at the ICC Awards ceremony in Dubai. The ODI player of the year was one of eight individual prizes given at this year's ICC Awards. Dhoni also featured on the ICC ODI team of the year as picked by the ICC selection panel  </p>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-3" id="award3" >
+            
+                <img src="images/award3.jpg" width="300" height="300">
+                        </div>
+                        <div class="col-sm-7">
+                <h2>
+                        M.S.Dhoni Awarded Rajiv Gandhi Khel Ratna Award
+
+                </h2>
+                <p>The man from Jharkhand had his task cut out as he had to lead a young brigade at the ICC T20 World Cup in 2007. However, much to the surprise of many pundits, Dhoni led an inspired show at the event that saw India lifting the coveted silverware. The period witnessed him grow from strength to strength in his game for India as he emerged as one of the country's biggest superstars.
+
+                    The former skipper scored heaps of runs all across the globe and won many accolades for his progress with the Indian team. One of Dhoni's prized moments came when he was honoured with the Rajiv Gandhi Khel Ratna award in the year 2008.
+                    
+                    </p>
+                </div>
+            </div>
+                </div>
+                <footer >
+                  <div>
+                            
+                    <p> &copy; <strong>2019</strong> All Rights Reserved</p>
+                  </div>
+                  <div class="social_links">
+                   
+                    <ul>
+                      
+                      <li>connect Dhoni on </li>
+                      <li><a href="https://www.facebook.com/MSDhoni/" target="_blank" class="fa fa-facebook"></a></li>
+                     <li> <a href="https://twitter.com/msdhoni?lang=en" target="_blank"class="fa fa-twitter"></a></li>
+                     <li><a href="https://www.youtube.com/channel/UCzs1WZ7m3x08feGCOCzUlJA" target="_blank"class="fa fa-youtube"></a></li>
+                    </ul>
+                  </div>
+                  <div class="top_button">
+                      <button type="button" class="btn btn-success btn-lg" onclick="topFunction()" id="myBtn"   title="Go to top">Top</button>
+                  </div>
+                    </footer>      
+            
+                    
+  </body>
+  </html>
